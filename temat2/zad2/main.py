@@ -1,2 +1,1 @@
-suma = a + b
-print(suma)
+wyjscie = tuple(input() for _ in range(10))
