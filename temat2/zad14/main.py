@@ -1,5 +1,2 @@
-for _ in range(10):
-    if int(input()) <= 0:
-        break
-else:
-    print("SUKCES")
+n, m = int(input()), int(input())
+wyjscie = wejscie[n:m+1]
