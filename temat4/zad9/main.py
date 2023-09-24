@@ -1,1 +1,1 @@
-wyjscie = wejscie * 100
+print(f"{wejscie:06}")

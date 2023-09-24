@@ -1,2 +1,2 @@
-element = input()
-print(wejscie.index(element))
+wejscie = input()
+print(wejscie.upper())

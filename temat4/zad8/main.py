@@ -1,1 +1,1 @@
-wyjscie = wejscie_1.union(wejscie_2)
+print(bin(wejscie)[2:])

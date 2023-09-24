@@ -1,1 +1,2 @@
-wyjscie = {input() for _ in range(10)}
+wejscie = input()
+print(len(wejscie))

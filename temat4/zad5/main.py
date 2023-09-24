@@ -1,2 +1,2 @@
-for elem in wejscie:
-    print(elem)
+wejscie = input()
+print(wejscie * 100)

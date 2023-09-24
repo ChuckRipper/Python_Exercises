@@ -1,1 +1,1 @@
-wyjscie = wejscie_1 + wejscie_2
+print(f"{wejscie:.2f}")

@@ -1,1 +1,2 @@
-print(len(wejscie))
+wejscie = input()
+print(wejscie.lower())

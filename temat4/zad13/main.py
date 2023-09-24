@@ -1,2 +1,7 @@
-n = int(input())
-wyjscie = wejscie[n:]
+import string
+
+wejscie = input()
+if any(char in string.whitespace for char in wejscie):
+    print("TAK")
+else:
+    print("NIE")

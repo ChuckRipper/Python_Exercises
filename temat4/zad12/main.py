@@ -1,2 +1,5 @@
-n = int(input())
-wyjscie = wejscie[:n]
+wejscie = input()
+if 'a' in wejscie:
+    print("TAK")
+else:
+    print("NIE")

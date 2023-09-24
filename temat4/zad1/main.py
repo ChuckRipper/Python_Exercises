@@ -1,1 +1,2 @@
-main.py
+wejscie = input()
+print(wejscie[4])

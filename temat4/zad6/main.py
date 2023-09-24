@@ -1,2 +1,3 @@
-for elem in wejscie:
-    print(elem)
+imie = input()
+nazwisko = input()
+print(f"Witaj, {imie} {nazwisko}!")

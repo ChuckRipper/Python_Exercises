@@ -1,1 +1,2 @@
-print(wejscie[5])
+wejscie = input()
+print(wejscie[3:503])
