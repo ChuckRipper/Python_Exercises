@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie[4])
+temat4/zad1 temat4/zad1/main.py temat4/zad2 temat4/zad3 temat4/zad4 temat4/zad5
