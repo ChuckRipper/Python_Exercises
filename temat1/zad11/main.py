@@ -1,0 +1,1 @@
+print(sum(1 for _ in range(1000) if int(input()) % 2 == 0))
