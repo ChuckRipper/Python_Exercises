@@ -1,1 +1,3 @@
-temat9/zad6 temat9/zad7 temat9/zad8 temat9/zad9 temat9/zad10 temat9/zad11
+class Wyjscie(Wejscie):
+    def hello_world(self):
+        return "Hello World!"

@@ -1,8 +1,11 @@
-# class Wejscie:
-#     def __init__(self):
-#         self.lista_parametrow = []
+class Wektor:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-class Wyjscie(Wejscie):
-    def __init__(self):
-        super().__init__()
-        self.dlugosc = len(self.lista_parametrow)
+    def __getitem__(self, key):
+        if key == "x":
+            return self.x
+        elif key == "y":
+            return self.y
+        raise KeyError(f"Nieznany klucz: {key}")

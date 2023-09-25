@@ -1,7 +1,7 @@
-# class Wejscie:
-#     pass
+class Osoba:
+    def __init__(self, imie, nazwisko):
+        self.imie = imie
+        self.nazwisko = nazwisko
 
-class Wyjscie(Wejscie):
-    @staticmethod
-    def hello_world():
-        print("Hello World!!!")
+    def __del__(self):
+        print(f'"{self.imie}" "{self.nazwisko}" umiera')

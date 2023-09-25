@@ -1,2 +1,4 @@
-wejscie = input()
-print(wejscie[3:503])
+class OgraniczonaLista(list):
+    def append(self, item):
+        if len(self) < 30:
+            super().append(item)

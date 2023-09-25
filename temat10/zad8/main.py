@@ -1,17 +1,16 @@
-# class Wejscie:
-#     def __init__(self):
-#         self._parametr = None
+class Wektor:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-class Wyjscie(Wejscie):
-    @property
-    def parametr(self):
-        return self._parametr
+    def __add__(self, other):
+        return Wektor(self.x + other.x, self.y + other.y)
 
-    @parametr.setter
-    def parametr(self, value):
-        print("Zamiana wartości")
-        self._parametr = value
+    def __sub__(self, other):
+        return Wektor(self.x - other.x, self.y - other.y)
 
-    @parametr.deleter
-    def parametr(self):
-        self._parametr = None
+    def __mul__(self, scalar):
+        return Wektor(self.x * scalar, self.y * scalar)
+
+    def __rmul__(self, scalar):
+        return self.__mul__(scalar)
