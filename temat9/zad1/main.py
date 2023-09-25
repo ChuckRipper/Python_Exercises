@@ -1,1 +1,2 @@
-temat7/zad6 temat7/zad7 temat7/zad8 temat7/zad9 temat7/zad10 temat7/zad11 temat7/zad12
+class Wyjscie:
+    atrybut = 1

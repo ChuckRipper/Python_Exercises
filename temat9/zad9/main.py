@@ -1,27 +1,5 @@
-# Wariant #1
-# def fibonacci():
-#     a, b = 0, 1
-#     while True:
-#         yield a
-#         a, b = b, a+b
-
-# wyjscie = fibonacci()
-
-# Wariant #2
-# def fibonacci():
-#     yield 0
-#     a, b = 0, 1
-#     while True:
-#         yield b
-#         a, b = b, a+b
-
-# wyjscie = fibonacci()
-
-# Wariant #3
-def fibonacci():
-    a, b = 0, 1
-    while True:
-        yield a
-        a, b = b, a + a
-
-wyjscie = fibonacci()
+class Wyjscie:
+    def __new__(cls, *args, **kwargs):
+        instance = super().__new__(cls)
+        instance.__dict__ = {}  # to prevents inherited attributes from parent
+        return instance
