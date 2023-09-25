@@ -1,1 +1,2 @@
-temat4/zad1 temat4/zad1/main.py temat4/zad2 temat4/zad3 temat4/zad4 temat4/zad5
+with open("wejscie.txt", "r") as f:
+    wyjscie = f.readlines()
