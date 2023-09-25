@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie[-1])
+wyjscie = (x for x in wejscie if x % 7 != 0)

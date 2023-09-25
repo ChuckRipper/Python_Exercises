@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie[3:503])
+wyjscie = (x.upper() for x in wejscie)

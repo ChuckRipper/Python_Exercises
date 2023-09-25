@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie * 100)
+wyjscie = (len(x) for x in wejscie)

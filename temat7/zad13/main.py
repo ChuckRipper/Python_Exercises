@@ -1,2 +1,2 @@
-n = int(input())
-wyjscie = wejscie[n:]
+for slownik in wejscie:
+    print(pole_trojkata(**slownik))

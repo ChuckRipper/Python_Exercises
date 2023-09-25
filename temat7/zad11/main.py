@@ -1,1 +1,1 @@
-print(len(wejscie))
+print(*wejscie)

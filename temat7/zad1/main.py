@@ -1,1 +1,1 @@
-temat3/zad6 temat3/zad6/.gitkeep temat3/zad6/main.py temat3/zad7 temat3/zad8 temat3/zad9 temat3/zad10 temat3/zad11 temat3/zad12 temat3/zad13 temat3/zad14 temat3/zad15 temat3/zad16 temat3/zad17
+wyjscie = (x % 7 for x in wejscie)
