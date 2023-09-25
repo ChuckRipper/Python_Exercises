@@ -1,2 +1,4 @@
-wejscie = input()
-print(wejscie * 100)
+def log(message, logger=print):
+    logger(message)
+
+log("Hi!")

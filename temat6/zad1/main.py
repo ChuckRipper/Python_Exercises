@@ -1,1 +1,2 @@
-temat4/zad6 temat4/zad7
+def hello_world():
+    print("Hello World!")

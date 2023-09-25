@@ -1,2 +1,2 @@
-wejscie = input()
-print(wejscie[-1])
+def suma(a, b):
+    return a + b
