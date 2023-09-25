@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie[4])
+temat7/zad6 temat7/zad6/.gitkeep temat7/zad6/main.py temat7/zad7 temat7/zad8 temat7/zad9
