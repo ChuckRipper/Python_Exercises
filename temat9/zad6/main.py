@@ -1,5 +1,5 @@
-class Wejscie:
-    pass
+# class Wejscie:
+#     pass
 
 class Wyjscie(Wejscie):
     @staticmethod

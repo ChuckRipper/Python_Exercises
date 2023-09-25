@@ -1,6 +1,6 @@
-class Wejscie:
-    def __init__(self):
-        self._parametr = None
+# class Wejscie:
+#     def __init__(self):
+#         self._parametr = None
 
 class Wyjscie(Wejscie):
     @property
