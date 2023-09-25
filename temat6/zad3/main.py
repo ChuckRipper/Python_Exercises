@@ -8,4 +8,4 @@
 def powitanie(**kwargs):
     print(f"Witaj, {kwargs['imie']} {kwargs['nazwisko']}!")
 
-powitanie(imie=imie, nazwisko=nazwisko)
+# powitanie(imie=imie, nazwisko=nazwisko)
