@@ -1,27 +1,25 @@
-# Wariant #1
-# def fibonacci():
-#     a, b = 0, 1
-#     while True:
-#         yield a
-#         a, b = b, a+b
+def obserwuj(func):
+    from functools import wraps
+    from time import time
 
-# wyjscie = fibonacci()
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
 
-# Wariant #2
-# def fibonacci():
-#     yield 0
-#     a, b = 0, 1
-#     while True:
-#         yield b
-#         a, b = b, a+b
+        obserwacje = obserwatorzy.get(func.__name__, {})
+        komunikat = f"Funkcja {func.__name__} została wywołana o czasie {time()} i życzy smacznej kawusi"
 
-# wyjscie = fibonacci()
+        if "anetke" in obserwacje and obserwacje["anetke"]:
+            informuj_anetke(komunikat)
+        if "beatke" in obserwacje and obserwacje["beatke"]:
+            informuj_beatke(komunikat)
+        if "czeske" in obserwacje and obserwacje["czeske"]:
+            informuj_czeske(komunikat)
+        if "danke" in obserwacje and obserwacje["danke"]:
+            informuj_danke(komunikat)
+        if "elke" in obserwacje and obserwacje["elke"]:
+            informuj_elke(komunikat)
 
-# Wariant #3
-def fibonacci():
-    a, b = 0, 1
-    while True:
-        yield a
-        a, b = b, a + a
+        return result
 
-wyjscie = fibonacci()
+    return wrapper

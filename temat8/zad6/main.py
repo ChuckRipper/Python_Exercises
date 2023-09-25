@@ -1,2 +1,5 @@
-n = int(input())
-wyjscie = (f"{i}x{j}={i*j}" for i in range(1, n+1) for j in range(1, n+1))
+def stringer(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return str(func(*args, **kwargs))
+    return wrapper

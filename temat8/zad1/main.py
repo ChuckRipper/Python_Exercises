@@ -1,1 +1,3 @@
-temat7/zad6 temat7/zad6/.gitkeep temat7/zad6/main.py temat7/zad7 temat7/zad8 temat7/zad9
+def grawitacja_ziemi(m2, r=PROMIEN_ZIEMI):
+    MASA_ZIEMI_LOCAL = MASA_ZIEMI
+    return grawitacja(MASA_ZIEMI_LOCAL, m2, r)
