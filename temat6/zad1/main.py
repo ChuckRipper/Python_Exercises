@@ -1,2 +1,1 @@
-wejscie = input()
-print(wejscie[4])
+temat4/zad6 temat4/zad7
