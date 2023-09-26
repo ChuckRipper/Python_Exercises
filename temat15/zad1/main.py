@@ -1,1 +1,1 @@
-wyjscie = [input() for _ in range(10)]
+Szablon/zad1 Szablon/zad2 Szablon/zad3 Szablon/zad4 Szablon/zad5 Szablon/zad6 Szablon/zad7 Szablon/zad8 Szablon/zad9 Szablon/zad10 Szablon/zad11 Szablon/zad12 Szablon/zad13 Szablon/zad14 Szablon/zad15 Szablon/zad16
