@@ -1,2 +1,4 @@
-for elem in wejscie[-5:]:
-    print(elem)
+import tarfile
+
+with tarfile.open('data.tar.gz', 'w:gz') as t:
+    t.add('data/')

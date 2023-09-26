@@ -1,1 +1,4 @@
-wyjscie = {input() for _ in range(10)}
+import json
+
+with open('wyjscie.json', 'w') as jsonfile:
+    json.dump(wejscie, jsonfile)

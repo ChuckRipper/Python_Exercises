@@ -1,1 +1,4 @@
-wyjscie = wejscie_1.union(wejscie_2)
+import tarfile
+
+with tarfile.open('data.tar.bz2', 'w:bz2') as t:
+    t.add('data/')

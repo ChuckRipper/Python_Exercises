@@ -1,1 +1,4 @@
-wyjscie = tuple(input() for _ in range(10))
+import zipfile
+
+with zipfile.ZipFile('data.zip', 'r') as z:
+    z.extractall()
