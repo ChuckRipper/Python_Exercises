@@ -1,2 +1,3 @@
-for elem in wejscie:
-    print(elem)
+import os
+
+os.remove(wejscie)

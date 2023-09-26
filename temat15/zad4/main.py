@@ -1,1 +1,3 @@
-print(wejscie[5])
+import os
+
+os.rename(wejscie_1, wejscie_2)
