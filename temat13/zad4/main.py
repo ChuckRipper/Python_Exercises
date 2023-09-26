@@ -1,4 +1,5 @@
-class OgraniczonaLista(list):
-    def append(self, item):
-        if len(self) < 30:
-            super().append(item)
+import datetime
+
+dzisiaj = datetime.date.today()
+roznica = dzisiaj - wejscie
+print(roznica.days)

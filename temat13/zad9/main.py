@@ -1,9 +1,11 @@
-class Licznik:
-    def __init__(self, func):
-        self.func = func
-        self.count = 0
+import calendar
 
-    def __call__(self, *args, **kwargs):
-        self.count += 1
-        print(self.count)
-        return self.func(*args, **kwargs)
+kalendarz = calendar.monthcalendar(datetime.datetime.now().year, datetime.datetime.now().month)
+for tydzien in kalendarz:
+    wiersz = []
+    for dzien in tydzien:
+        if dzien == 0:
+            wiersz.append("[  ]")
+        else:
+            wiersz.append(f"[{dzien:02}]")
+    print(' '.join(wiersz))

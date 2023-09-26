@@ -1,16 +1,19 @@
-class Wektor:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+import datetime
 
-    def __add__(self, other):
-        return Wektor(self.x + other.x, self.y + other.y)
+def odliczanie(data):
+    # Algorytm do obliczenia daty Wielkanocy dla kalendarza Julian
+    a = data.year % 4
+    b = data.year % 7
+    c = data.year % 19
+    d = (19*c + 15) % 30
+    e = (2*a + 4*b - d + 34) % 7
+    month = (d + e + 114) // 31
+    day = ((d + e + 114) % 31) + 1
+    wielkanoc_julian = datetime.date(data.year, month, day)
 
-    def __sub__(self, other):
-        return Wektor(self.x - other.x, self.y - other.y)
+    # Korekta dla kalendarza gregoriańskiego
+    korekta = (data.year // 100) - (data.year // 400) - 2
+    wielkanoc_gregorianska = wielkanoc_julian + datetime.timedelta(days=korekta)
 
-    def __mul__(self, scalar):
-        return Wektor(self.x * scalar, self.y * scalar)
-
-    def __rmul__(self, scalar):
-        return self.__mul__(scalar)
+    roznica = wielkanoc_gregorianska - data
+    return roznica.days
