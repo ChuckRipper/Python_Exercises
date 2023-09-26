@@ -1,1 +1,3 @@
-wyjscie = {input() for _ in range(10)}
+import math
+
+print(math.factorial(n))

@@ -1,1 +1,3 @@
-wyjscie = tuple(input() for _ in range(10))
+import math
+
+print(math.gcd(a, b))

@@ -1,1 +1,4 @@
-wyjscie = [input() for _ in range(10)]
+import math
+
+for liczba in wejscie:
+    print(math.floor(liczba), math.ceil(liczba))

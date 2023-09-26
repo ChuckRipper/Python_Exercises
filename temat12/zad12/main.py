@@ -1,2 +1,1 @@
-n = int(input())
-wyjscie = wejscie[:n]
+wyjscie = [abs(z) for z in wejscie]

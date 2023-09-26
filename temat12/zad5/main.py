@@ -1,2 +1,1 @@
-for elem in wejscie:
-    print(elem)
+print(x - int(x))

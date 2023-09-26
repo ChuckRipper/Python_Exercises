@@ -1,2 +1,3 @@
-element = input()
-print(wejscie.index(element))
+import statistics
+
+print(statistics.correlation(wejscie_1, wejscie_2))
