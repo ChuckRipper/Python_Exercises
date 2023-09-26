@@ -1,1 +1,3 @@
-print(wejscie[-1])
+import functools
+
+wyjscie = functools.reduce(lambda d, src: d.update(src) or d, wejscie, {})

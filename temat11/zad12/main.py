@@ -1,2 +1,3 @@
-n = int(input())
-wyjscie = wejscie[:n]
+import itertools
+
+wyjscie = itertools.accumulate(wejscie)

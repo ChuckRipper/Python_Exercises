@@ -1,1 +1,3 @@
-print(wejscie[5])
+import random
+
+wyjscie = random.sample(wejscie, len(wejscie))

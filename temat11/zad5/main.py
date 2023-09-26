@@ -1,2 +1,3 @@
-for elem in wejscie:
-    print(elem)
+import random
+
+wyjscie = random.sample(wejscie, 100)

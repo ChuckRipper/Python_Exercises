@@ -1,2 +1,3 @@
-n, m = int(input()), int(input())
-wyjscie = wejscie[n:m+1]
+import itertools
+
+wyjscie = itertools.cycle(wejscie)

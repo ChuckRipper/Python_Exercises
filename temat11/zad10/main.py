@@ -1,2 +1,2 @@
-element = input()
-print(wejscie.index(element))
+tekst = input()
+wyjscie = tekst.split()

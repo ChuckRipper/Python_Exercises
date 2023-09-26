@@ -1,1 +1,3 @@
-wyjscie = tuple(input() for _ in range(10))
+import random
+
+wyjscie = [random.choice(wejscie) for _ in range(100)]
